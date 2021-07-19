@@ -1,0 +1,88 @@
+/*Estilos da página index.html*/
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.container {
+display: flex;
+flex-flow: row;
+justify-content: center;
+align-items: center;
+}
+
+#menu li {
+display: inline;
+padding: 15px;
+}
+
+#menu li a {
+text-decoration: none;
+color: white;
+font-size: 20px;
+}
+
+#menu li a:hover {
+    color: red;
+}
+
+.p-30 {
+    padding: 30px;
+}
+.br-50 {
+    border-radius: 50%;
+}
+
+.tm-social {
+    width: 50px;
+    height: 50px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #3d4fb4;
+    color: white;
+    font-size: 15px;
+  }
+
+  .footer {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    background: #3d4fb4;
+   
+    }
+
+/*Estilos da página contato.html*/
+
+.ml-50 {
+    margin-left: 50px;
+}
+
+/*Estilos da página testelogica.html*/
+
+.menu2 {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    }
+.menu2 li a {
+text-decoration: none;
+color: blue;
+font-size: 20px;
+
+}
+.mb-teste {
+    margin-bottom: 500px;
+}
