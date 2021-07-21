@@ -30,17 +30,18 @@
         <div id='txtEmail'></div>
         <br>
         <label for="assunto">Assunto:</label><br>
-        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+        <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
+        <div id="txtAssunto"></div>
         <br>
         <br>
-        <button>Enviar</button>
+        <button onclick="enviar()">Enviar</button>
     </form>
 </div>
 <div class="ml-50">
     <p>Av. Prof. Fonseca Rodrigues, 2001</p>
     <p>São Paulo - SP</p>
     
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14630.527515093065!2d-46.7254151!3d-23.5457391!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6f6b8e0ec9daadd1!2sParque%20Villa-Lobos!5e0!3m2!1spt-BR!2sbr!4v1626457259413!5m2!1spt-BR!2sbr" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14630.527515093065!2d-46.7254151!3d-23.5457391!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6f6b8e0ec9daadd1!2sParque%20Villa-Lobos!5e0!3m2!1spt-BR!2sbr!4v1626457259413!5m2!1spt-BR!2sbr" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" id="mapa" onmousemove="mapaZoom()" onmouseout="mapaNormal()"></iframe>    
 </div>
 </div>
 <hr>
